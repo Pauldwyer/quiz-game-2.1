@@ -1,0 +1,15 @@
+body {
+    color: rgb(15, 15, 15);
+}
+
+#highScoresList {
+    list-style: none;
+    margin-bottom: 4rem;
+
+}
+
+.high-score {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+    
+}
