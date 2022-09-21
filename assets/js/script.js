@@ -108,6 +108,7 @@ choices.forEach(choice => {
     })
 })
 
+// increments score
 incrementScore = num => {
     score += num
     scoreText.innerText = score
