@@ -1,3 +1,4 @@
+/* style rules for root/body */
 body {
     background-color: rgb(184, 243, 255);
 }
@@ -11,6 +12,8 @@ body {
 
 }
 
+/* style rules for the headings */
+
 h1 {
     font-size: 5.4rem;
     color: rgb (15, 15, 15);
@@ -21,6 +24,8 @@ h2 {
     font-size: 4.2rem;
     margin-bottom: 4rem;
 }
+
+/* style rules for the container div */
 
 .container {
     width: 100vw;
@@ -54,6 +59,8 @@ h2 {
 .hidden {
     display: none;
 }
+
+/* styling for the buttons */
 
 .btn {
     font-size: 2.4rem;

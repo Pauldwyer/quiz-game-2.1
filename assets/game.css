@@ -1,5 +1,4 @@
-
-
+/* container holding the choices */
 .choice-container {
     display: flex;
     margin-bottom: 0.8rem;
@@ -19,11 +18,19 @@
     width: 100%;
 }
 
+/* change color based on answers */
+.correct {
+    background: linear-gradient(32deg, rgba(221, 28, 26) 0%, rgb(221, 28, 26) 100%);
+}
+
+.incorrect {
+    background: linear-gradient(32deg, rgba(251, 175, 0) 0%, rgb(251, 175, 0) 100%);
+}
+
+/* heads up display */
 
 
-
-
-
+/* media query for mobile */
 @media screen and (max-width: 760px) {
     .choice-container {
         min-width: 40rem;
